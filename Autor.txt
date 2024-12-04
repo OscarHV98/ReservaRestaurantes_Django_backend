@@ -1,0 +1,44 @@
+Autor: Oscar Herbas Velasco
+Fecha de creación: 4 de Diciembre de 2024
+Repositorio: git clone https://github.com/OscarHV98/ReservaRestaurantes_Django_backend.git
+Proyecto: Backend con DJango para la gestión de reservas en restaurantes
+Descripción: Proyecto desarrollado en Django para gestionar reservas en un restaurante, con autenticación JWT, gestión de clientes, restaurantes, mesas, menús, platos y más.
+
+Tecnologías utilizadas:
+- Django 5.1.3
+- Django REST Framework
+- PostgreSQL (base de datos)
+- Autenticación JWT
+- Swagger (Documentación de la API)
+- django-cors-headers (CORS en el backend)
+- django-filter (filtros avanzados para la API)
+
+Instrucciones de instalación:
+1. Clona el repositorio:
+   git clone git clone https://github.com/OscarHV98/ReservaRestaurantes_Django_backend.git
+   cd backend
+
+2. Crea un entorno virtual (opcional, pero recomendado):
+   python -m venv env
+
+3. Activa el entorno virtual:
+   En Windows: env\Scripts\activate
+   En Linux/macOS: source env/bin/activate
+
+4. Instala las dependencias necesarias:
+   pip install -r requirements.txt
+
+5. Realiza las migraciones de la base de datos:
+   python manage.py makemigrations
+   python manage.py migrate
+
+6. Crea un superusuario para acceder al panel de administración de Django:
+   python manage.py createsuperuser
+
+7. Inicia el servidor de desarrollo:
+   python manage.py runserver
+
+Visita la API en http://127.0.0.1:8000/ para interactuar con ella.
+
+Requerimientos adicionales:
+- Python 3.9 o superior
