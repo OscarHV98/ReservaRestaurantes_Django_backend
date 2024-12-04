@@ -24,7 +24,19 @@ Asegúrate de tener instalado:
 
 ## Instalación
 
-1. Clona este repositorio:
+1. **Clona este repositorio**:
+   
+   Abre una terminal y clona el repositorio en tu máquina local:
+
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd backend
+   git clone https://github.com/OscarHV98/ReservaRestaurantes_Django_backend.git
+   cd ReservaRestaurantes_Django_backend
+
+### Detalles:
+- En el paso 2 se especifica cómo crear y activar un entorno virtual, lo cual es una práctica recomendada.
+- Se indica cómo instalar las dependencias con `pip install -r requirements.txt`.
+- Se detalla el comando `makemigrations` para asegurar que las migraciones se generen correctamente antes de aplicarlas.
+- También se añade la creación del superusuario con el comando `createsuperuser` para poder acceder al panel de administración de Django.
+- Se explica cómo iniciar el servidor de desarrollo con `python manage.py runserver`.
+  
+Con estos pasos, los usuarios podrán configurar el entorno y ejecutar el proyecto de manera correcta.
